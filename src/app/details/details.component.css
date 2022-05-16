@@ -1,0 +1,63 @@
+table, th, td {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+    background-color: rgb(219, 233, 140);
+    }
+    
+    th, td {
+    padding: 15px;
+    text-align: left;
+    }
+    
+    th{
+        color:rgb(19, 18, 17);
+    }
+    
+    img{
+        border: 1px solid yellow;
+        width: 215px;
+        height: auto;
+    }
+    #one{
+        margin:0px 100px 50px 100px;
+    }
+    
+    body {
+        background:#1e1e26;
+      }
+      
+      .mypopcorn {
+        padding:20px;
+      }
+      
+      .popcorn{
+        margin: auto;
+        position: absolute;
+        width:85px;
+        top: 30%; 
+        left: 0; 
+        bottom: 0; 
+        right: 0;
+      }
+      
+      circle#popcrncirlce {
+        fill: #FFE477;
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        -webkit-animation: rotate 1.5s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+        animation: rotate 1.5s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+      }
+      
+      
+      
+      @-webkit-keyframes rotate {
+        50% {
+          -webkit-transform: translate(0px, 100px);
+        }
+      }
+      
+      @keyframes rotate {
+        50% {
+          transform: translate(0px, 100px);
+        }
+      }
